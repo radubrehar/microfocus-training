@@ -9,16 +9,16 @@
 
 - current ecosystem + available options (sass, css-in-js, css variables, etc)
 
-3. Testing with React
-
-- jest
-- unit vs integration/end-to-end testing with jest + puppeteer
-
-4. Application architecture - state management and application performance
+3. Application architecture - state management and application performance
 
 - using context/redux/other options - you might not need redux
 - routing, lazy loading
 - performance considerations
+
+4. Testing with React
+
+- jest
+- unit vs integration/end-to-end testing with jest + puppeteer
 
 5. Tooling & deployment
 
@@ -29,3 +29,5 @@
 - effectively using npm scripts
 
 Concurrent rendering - I suggest we leave this out for the moment, as there are not too many details published about this
+
+BONUS: Debugging session

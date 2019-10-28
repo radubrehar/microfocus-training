@@ -9,7 +9,9 @@
 
 - current ecosystem + available options (sass, css-in-js, css variables, etc)
 
-## [3. Testing with React](./testing.md)
+## [3. Application architecture - state management and application performance](./architecture.md)
 
-- jest
-- unit vs integration/end-to-end testing with jest + puppeteer
+- using context/redux/other options - you might not need redux
+- avoid prop drilling - use context
+- routing, lazy loading
+- performance considerations

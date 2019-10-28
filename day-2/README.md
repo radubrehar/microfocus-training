@@ -3,11 +3,10 @@
 - jest
 - unit vs integration/end-to-end testing with jest + puppeteer
 
-## 4. Application architecture - state management and application performance
+## [4. Testing with React](./testing.md)
 
-- using context/redux/other options - you might not need redux
-- routing, lazy loading
-- performance considerations
+- jest
+- unit vs integration/end-to-end testing with jest + puppeteer
 
 ## 5. Tooling & deployment
 
