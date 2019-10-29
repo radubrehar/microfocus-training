@@ -1,0 +1,21 @@
+:root {
+  --mf-tabstriptab__background: #676767;
+  --mf-tabstriptab--selected__background: black;
+  --mf-tabstriptab__padding: 1rem;
+  --mf-theme-loaded: yes;
+}
+
+.TabStrip {
+  display: flex;
+  flex-flow: row;
+  background: #c7c7c7;
+}
+
+.TabStripTab {
+  background: var(--mf-tabstriptab__background);
+  color: white;
+  padding: var(--mf-tabstriptab__padding);
+}
+.TabStripTab--selected {
+  background: wheat;
+}
