@@ -1,8 +1,3 @@
-## 3. Testing with React
-
-- jest
-- unit vs integration/end-to-end testing with jest + puppeteer
-
 ## [4. Testing with React](./testing.md)
 
 - jest

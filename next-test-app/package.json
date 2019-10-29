@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "build-static": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "test-w": "jest --config=jest.browser.config.js --watch"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
@@ -14,5 +15,13 @@
     "next": "9.1.2-canary.8",
     "react": "16.11.0",
     "react-dom": "16.11.0"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "babel-jest": "^24.9.0",
+    "jest-cli": "^24.9.0",
+    "jest-image-snapshot": "^2.11.0",
+    "jest-puppeteer": "^4.3.0",
+    "puppeteer": "^2.0.0"
   }
 }
