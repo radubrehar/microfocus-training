@@ -7,7 +7,7 @@
     "build": "next build",
     "build-static": "next build && next export",
     "start": "next start",
-    "test-w": "jest --config=jest.browser.config.js --watch"
+    "test-w": "jest --config=jest.browser.config.js --watchAll"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",

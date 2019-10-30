@@ -5,11 +5,11 @@ module.exports = {
     // dumpio: true,
     defaultViewport: {
       width,
-      height,
+      height
     },
     devtools: true,
-    headless: true, //process.env.HEADLESS !== 'false',
+    headless: true //process.env.HEADLESS !== 'false',
     // args: [`--window-size=${width},${height}`],
   },
-  browserContext: 'default',
+  browserContext: 'default'
 };

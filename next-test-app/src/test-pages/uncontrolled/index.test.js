@@ -13,6 +13,7 @@ describe('TabStrip uncontrolled', () => {
     expect(tabs.length).toEqual(2);
 
     const classes = await page.evaluate(tab => [...tab.classList], tabs[1]);
+
     expect(classes.includes('TabStripTab--selected')).toEqual(true);
 
     await tabs[0].click();

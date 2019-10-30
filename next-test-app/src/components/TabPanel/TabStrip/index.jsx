@@ -79,6 +79,10 @@ const TabStrip = props => {
   return (
     <div
       {...domProps}
+      onFocus={() => {
+        console.log('focused');
+      }}
+      tabIndex={1}
       onKeyDown={e => {
         // TODO
         // if (e.key === 'ArrowRight') {

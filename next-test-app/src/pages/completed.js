@@ -6,8 +6,8 @@ import Todos from '../components/Todos';
 const Home = () => {
   return (
     <App>
-      <Nav />
-      <Todos />
+      <Nav selectedFilter="completed" />
+      <Todos selectedFilter="completed" />
     </App>
   );
 };
